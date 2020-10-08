@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-server": "node ./server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/IceQub3/safe-chat/issues"
   },
-  "homepage": "https://github.com/IceQub3/safe-chat#readme"
+  "homepage": "https://github.com/IceQub3/safe-chat#readme",
+  "dependencies": {
+    "ioredis": "^4.17.3"
+  }
 }
